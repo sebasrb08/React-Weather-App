@@ -1,0 +1,30 @@
+.weather-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weather-title--text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.weather-title--hour{
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+.weather-temperatura{
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(240, 53, 53);
+}
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-description{
+    text-align: center;
+    font-size: 1.2em;
+    opacity: 0.6;
+}
